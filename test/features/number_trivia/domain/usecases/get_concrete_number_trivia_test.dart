@@ -7,8 +7,6 @@ import 'package:number_trivia/features/number_trivia/domain/repositories/number_
 import 'package:number_trivia/features/number_trivia/domain/usecases/get_concrete_number_trivia.dart';
 import 'get_concrete_number_trivia_test.mocks.dart';
 
-// class MockNumberTriviaRepository extends Mock
-//     implements NumberTriviaRepository {}
 @GenerateMocks([NumberTriviaRepository])
 void main() {
   // added late keyword to make setUp function
